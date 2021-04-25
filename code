@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main{
+
+    public static void main(String[] args){
+
+        List<String> sas = new ArrayList<>();
+        sas.add("red");
+
+        sas.add("blue");
+
+        sas.add(1, "white");
+
+        sas.add(0, "black");
+
+        System.out.println(sas);
+
+
+    }
+}  
