@@ -1,0 +1,23 @@
+package com.company;
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> sas = new ArrayList<String>();
+        sas.add("s");
+        sas.add("ss");
+        sas.add("sss");
+        sas.add("ssss");
+        sas.add("sssss");
+        sas.add("ssssss");
+        sas.add("sssssss");
+
+        System.out.println("1 element ArrayList: "+sas.get(0));
+
+        System.out.println("2 element ArrayList: "+sas.get(1));
+
+        System.out.println("4 element ArrayList: "+sas.get(3));
+
+        System.out.println("3 element ArrayList: "+sas.get(2));
+    }
+}
