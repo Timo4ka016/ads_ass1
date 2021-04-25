@@ -1,0 +1,22 @@
+package com.company;
+import java.util.ArrayList;
+public class Main {
+    public static void main(String args[]) {
+
+        ArrayList<String> sas = new ArrayList<String>(); //String ArrayList
+        sas.add("аб"); sas.add("вг"); sas.add("де"); sas.add("12"); sas.add("34"); sas.add("56");
+        System.out.println("Before remove:");
+
+        for(String var: sas){
+            System.out.println(var);
+        }
+        sas.remove(0);//We remove 1 items
+        sas.remove(1);//We remove 2 items from the remaining ones in the list
+        sas.remove(2); //We remove 4 items from the remaining ones in the list
+        System.out.println("After remove:");
+
+        for(String var2: sas){
+            System.out.println(var2);
+        }
+    }
+}
