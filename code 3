@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String args[]) {
+
+
+        LinkedList sas = new LinkedList();
+
+        sas.add("Ты че");
+        sas.add("Ты кто ");
+        sas.add("такой");
+        sas.add("иди отсюда");
+        sas.add("быстро");
+        System.out.println("The list is:" + sas);
+        // Add new element to the end
+        sas.add(2, "sosiska");
+        sas.add(4, "kuwat");
+        sas.add(1, "sasa");
+        // new list
+        System.out.println("The new List is:" + sas);
+    }
+}
