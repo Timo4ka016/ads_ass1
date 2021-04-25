@@ -1,0 +1,23 @@
+package com.company;
+
+import java.io.*;
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String args[])
+    {
+        LinkedList<String> lista = new LinkedList<String>();
+        lista.add("sa");
+        lista.add("sam");
+        lista.add("ba");
+        lista.add("016");
+        lista.add("dts");
+        lista.add("dts1");
+        lista.add("dts2");
+        System.out.println("LinkedList:" + lista);
+
+        lista.remove();
+
+        System.out.println("Last LinkedList:" + lista);
+    }
+}
